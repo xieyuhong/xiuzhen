@@ -7,22 +7,26 @@
     <title>Document</title>
     <style>
         *{padding:0;margin:0;}
-        .blocks{
+        .block-wrap{
             width: 100%;
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
         }
         .gezi{
             background-color: orange;
-            width: 31%;
-            padding-top: 31%;
-            margin: 1%;
-            float: left;
-            border-radius: 5%;            
+            width: 30%;
+            padding-top: 30%;           
+            border-radius: 8%;            
+            margin-top: 3%;
         }
     </style>
 </head>
 <body>
     <div>
-        <div class="blocks">
+        <div class="block-wrap">
             <div class="gezi"></div>
             <div class="gezi"></div>
             <div class="gezi"></div>
